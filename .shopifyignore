@@ -1,0 +1,9 @@
+package.json
+package-lock.json
+gulpfile.js
+
+### SASS Files
+styles/
+
+.git/
+.idea/

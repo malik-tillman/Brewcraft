@@ -1,0 +1,120 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-plane",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#f0c417",
+            "title": "ON THE GO",
+            "content": "<p>The perfect fit for all standard size cup holders.<\/p>"
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-document",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#f0c417",
+            "title": "IN THE OFFICE",
+            "content": "<p>Keeps you going from 9 to 5 - and beyond.<\/p>"
+          }
+        },
+        "discount": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-building",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#f0c417",
+            "title": "AT HOME",
+            "content": "<p>The modern upgrade to your classic homestyle ceramic mug.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "customer-support",
+        "discount"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter_4eqWrA": {
+          "type": "newsletter",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_bb.webp",
+            "image_width": 300,
+            "heading_size": "h6",
+            "title": "Sign up to our newsletter",
+            "content": ""
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": "Customer Support"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "About",
+            "content": "<p>Premium ceramic travel mugs for hot and cold beverages.<\/p>",
+            "enable_follow_on_shop": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_4eqWrA",
+        "links",
+        "text"
+      ],
+      "custom_css": [
+        ".footer__copyright a {display: none;}",
+        ".footer__block--newsletter .v-stack {display: none;}",
+        ".footer {border-top: 1px solid #f0c417;}"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "footer"
+  ]
+}

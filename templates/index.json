@@ -1,0 +1,551 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4762_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "PREMIUM CERAMIC TRAVEL MUGS FOR HOT AND COLD BEVERAGES",
+            "title": "ELEVATE EVERY SIP",
+            "heading_tag": "h0",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "text_color": "#f0f0f0",
+            "button_background": "#e0b723",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 16,
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "fill",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "media_grid_ehVCRd": {
+      "type": "media-grid",
+      "blocks": {
+        "image_ktygcy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.png",
+            "title": "Onyx Black",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#a7782a",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#f0f0f0",
+            "overlay_opacity": 10
+          }
+        },
+        "image_KUzmmf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brew-craft-outdoors.00_00_16_06.Still006.jpg",
+            "title": "Stone Gray",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#f0f0f0",
+            "overlay_opacity": 10
+          }
+        },
+        "image_tPHXr3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-25_709d7267-0c53-4585-bee5-bcef548b7f34.png",
+            "title": "Misty White",
+            "heading_tag": "h3",
+            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_ktygcy",
+        "image_KUzmmf",
+        "image_tPHXr3"
+      ],
+      "custom_css": [
+        ".media-grid {grid: auto-flow dense var(--calculated-row-height) \/ repeat(3, minmax(0, 1fr));}",
+        "@media screen and (max-width: 787px) {.media-grid {grid-template-columns: 1fr 1fr 1fr; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 180,
+        "mobile_row_height": 120,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_gyVCLg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WepqVc": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "DRINK PURE",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_j8BCLD": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>INNER CERAMIC COATING KEEPS YOUR DRINK TASTING AS IT SHOULD. <\/p><p>REUSABLE AND RELIABLE, SAY GOOD-BYE TO DISPOSIBLE HOT AND COLD CUPS<\/p><p>AIR-TIGHT LID AND A SEALED STRAW HOLE KEEPS LIQUID IN - NOT OUT<\/p>"
+          }
+        },
+        "button_PMxE7h": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Discover More",
+            "url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "background": "#f0c417",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WepqVc",
+        "richtext_j8BCLD",
+        "button_PMxE7h"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#f0f0f0"
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "DRINK PURE • DRINK ECO-FRIENDLY • DRINK RELIABLY",
+        "text_size": "medium",
+        "text_style": "outline",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 8,
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#f0c417",
+        "text_gradient": ""
+      }
+    },
+    "video_NCkLeN": {
+      "type": "video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify:\/\/files\/videos\/brew-craft-outdoors.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "images_with_text_scrolling_CpgFKQ": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_qkmq9T": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-25.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Drink Pure",
+            "content": "<p>Inner ceramic coating keeps your drink tasting as it should.<\/p>"
+          }
+        },
+        "item_meMdPT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brew-craft-outdoors.00_00_19_17.Still007.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "DRINK ECO-FRIENDLY",
+            "content": "<p>Reusable and reliable, say good-bye to disposable hot and cold cups.<\/p>"
+          }
+        },
+        "item_Dz8gJR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1725584392_d0a7065.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "DRINK RELIABLY",
+            "content": "<p>Air-tight lid and a sealed straw hole keeps liquid in - not out.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_qkmq9T",
+        "item_meMdPT",
+        "item_Dz8gJR"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#f0f0f0",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "press_PRGNPY": {
+      "type": "press",
+      "blocks": {
+        "quote_UwfhUc": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "John D.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_PD7aPM": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "John D.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_fqfLFk": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "John D.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_UwfhUc",
+        "quote_PD7aPM",
+        "quote_fqfLFk"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "media_grid_JHnyGA": {
+      "type": "media-grid",
+      "blocks": {
+        "image_JPT3bF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Competitor_infographic.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jw6rtJ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-26.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_JPT3bF",
+        "image_jw6rtJ"
+      ],
+      "custom_css": [
+        ".media-grid {display: flex; justify-content: center;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 400,
+        "mobile_row_height": 190,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "featured_product_xkcLCf": {
+      "type": "featured-product",
+      "blocks": {
+        "title_aHyxRR": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price_iGJdTx": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "description_bjJwdT": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_pWtFX7": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_TzDHJX": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_J4G3qW": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_aHyxRR",
+        "price_iGJdTx",
+        "description_bjJwdT",
+        "variant_picker_pWtFX7",
+        "quantity_selector_TzDHJX",
+        "buy_buttons_J4G3qW"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "product": "premium-ceramic-lined-travel-mug-1",
+        "desktop_media_width": 40,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "input_background": "#ffffff",
+        "input_text_color": "#1a1a1a"
+      }
+    },
+    "media_grid_BVNr6N": {
+      "type": "media-grid",
+      "blocks": {
+        "image_YhyDwQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-21_e61027ce-d65a-4fee-b1e3-8dc80c027572.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LPQBeE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nH3T4P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4762_dc613f69-fa99-481c-8f84-366231a33ed3.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_YhyDwQ",
+        "image_LPQBeE",
+        "image_nH3T4P"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 170,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "media_grid_ehVCRd",
+    "rich_text_gyVCLg",
+    "scrolling-text",
+    "video_NCkLeN",
+    "images_with_text_scrolling_CpgFKQ",
+    "press_PRGNPY",
+    "media_grid_JHnyGA",
+    "featured_product_xkcLCf",
+    "media_grid_BVNr6N"
+  ]
+}

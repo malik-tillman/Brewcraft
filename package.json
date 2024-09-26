@@ -1,0 +1,36 @@
+{
+  "name": "workflow",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pull": "shopify theme pull --nodelete --store=$npm_config_store.myshopify.com",
+    "pull-dev": "shopify theme pull --nodelete --development --store=$npm_config_store.myshopify.com",
+    "pull-live": "shopify theme pull --nodelete --live --store=$npm_config_store.myshopify.com",
+    "push": "shopify theme push --nodelete --json --store=$npm_config_store.myshopify.com",
+    "push-dev": "shopify theme push --nodelete --json --development --store=$npm_config_store.myshopify.com",
+    "push-live": "shopify theme push --nodelete --json --live --store=$npm_config_store.myshopify.com",
+    "serve": "shopify theme dev --live-reload full-page --port $npm_config_port --store=$npm_config_store.myshopify.com",
+    "serve-sync": "shopify theme dev --theme-editor-sync --live-reload full-page --port $npm_config_port --store=$npm_config_store.myshopify.com",
+    "watch-sass": "gulp watch",
+    "whoami": "hopify store",
+    "open": "shopify theme open --development",
+    "share": "shopify theme share"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.54.4",
+    "cross-env": "^7.0.3"
+  },
+  "browserslist": [
+    "last 99 versions"
+  ]
+}
