@@ -20,6 +20,8 @@ but you can override them by manually passing a different value (although this s
 * input_background: an optional color for input background
 * input_text_color: an optional color for input text color
 * full_width: a boolean saying if the section is full width or not
+* hide_dekstop: a boolean saying if the section should be hidden on desktop
+* hide_mobile: a boolean saying if the section should be hidden on mobile
 {%- endcomment -%}
 
 {%- assign full_width = full_width | default: section.settings.full_width, allow_false: true -%}
@@ -28,6 +30,8 @@ but you can override them by manually passing a different value (although this s
 {%- assign text_color = text_color | default: section.settings.text_color -%}
 {%- assign input_background = input_background | default: section.settings.input_background -%}
 {%- assign input_text_color = input_text_color | default: section.settings.input_text_color -%}
+{%- assign hide_desktop = hide_desktop | default: section.settings.hide_desktop -%}
+{%- assign hide_mobile = hide_mobile | default: section.settings.hide_mobile -%}
 
 {%- if background_gradient == blank and background == blank or background == 'rgba(0,0,0,0)' or background == settings.background -%}
   {%- comment -%}The section blends, so we have to use vertical margin, and set a container{%- endcomment -%}
@@ -62,6 +66,14 @@ but you can override them by manually passing a different value (although this s
 {%- unless input_text_color == 'rgba(0,0,0,0)' or input_text_color == blank -%}
   {%- capture style_attributes -%}{{ style_attributes }} --input-text-color: {{ input_text_color.rgb }};{%- endcapture -%}
 {%- endunless -%}
+
+{%- if hide_desktop -%}
+  {%- capture class -%}{{ class }} hidden-desktop{%- endcapture -%}
+{%- endif -%}
+
+{%- if hide_mobile -%}
+  {%- capture class -%}{{ class }} hidden-mobile{%- endcapture -%}
+{%- endif -%}
 
 {%- if class != blank -%}
   class="section {% if tight %}section--tight{% endif %} {% if narrow %}section--narrow{% endif %} {{ class | strip }}"

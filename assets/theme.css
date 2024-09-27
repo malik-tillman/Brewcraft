@@ -10070,3 +10070,22 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+
+.hidden-desktop {
+  display: block;
+  padding-block-start: var(--calculated-section-spacing-block-end);
+}
+
+.hidden-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .hidden-desktop {
+    display: none;
+  }
+
+  .hidden-mobile {
+    display: block;
+  }
+}

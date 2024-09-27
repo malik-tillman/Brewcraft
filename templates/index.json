@@ -6,10 +6,10 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4762_1.jpg",
+            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-18_e6b9f530-fdc7-45cf-a26a-c4c6ddb4ea21.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "PREMIUM CERAMIC TRAVEL MUGS FOR HOT AND COLD BEVERAGES",
             "title": "ELEVATE EVERY SIP",
             "heading_tag": "h0",
@@ -19,7 +19,7 @@
             "button_background": "#e0b723",
             "button_text_color": "#1a1a1a",
             "overlay_color": "#1a1a1a",
-            "overlay_opacity": 16,
+            "overlay_opacity": 25,
             "background": "rgba(0,0,0,0)",
             "background_gradient": ""
           }
@@ -62,8 +62,8 @@
             "text_gradient": "",
             "button_background": "#a7782a",
             "button_text_color": "#ffffff",
-            "overlay_color": "#f0f0f0",
-            "overlay_opacity": 10
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 0
           }
         },
         "image_KUzmmf": {
@@ -84,14 +84,14 @@
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#f0f0f0",
+            "overlay_color": "#1a1a1a",
             "overlay_opacity": 10
           }
         },
         "image_tPHXr3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-25_709d7267-0c53-4585-bee5-bcef548b7f34.png",
+            "image": "shopify:\/\/shop_images\/1725584392_d0a7065_de9df63b-e0cc-49ac-8b5b-00a8f26b74df.jpg",
             "title": "Mist White",
             "heading_tag": "h3",
             "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
@@ -106,7 +106,7 @@
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#ffffff",
+            "overlay_color": "#1a1a1a",
             "overlay_opacity": 10
           }
         }
@@ -121,12 +121,82 @@
         "@media screen and (max-width: 787px) {.media-grid {grid-template-columns: 1fr 1fr 1fr; }}"
       ],
       "settings": {
+        "hide_desktop": false,
+        "hide_mobile": true,
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 180,
         "mobile_row_height": 120,
         "background": "#000000",
         "background_gradient": ""
+      }
+    },
+    "image_link_blocks_6fDCDt": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_hBkPEH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.png",
+            "stretch_image": true,
+            "link_text": "Onyx Black",
+            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_fgW3aF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brew-craft-outdoors.00_00_16_06.Still006.png",
+            "stretch_image": true,
+            "link_text": "Stone Gray",
+            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_YpBnA8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1725584392_d0a7065_de9df63b-e0cc-49ac-8b5b-00a8f26b74df.jpg",
+            "stretch_image": true,
+            "link_text": "Mist White",
+            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_hBkPEH",
+        "item_fgW3aF",
+        "item_YpBnA8"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "hide_desktop": true,
+        "hide_mobile": false,
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "rich_text_gyVCLg": {
@@ -201,7 +271,7 @@
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "images_with_text_scrolling_CpgFKQ": {
@@ -332,123 +402,23 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "image_jw6rtJ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-26.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
-        "image_JPT3bF",
-        "image_jw6rtJ"
+        "image_JPT3bF"
       ],
       "custom_css": [
         ".media-grid {display: flex; justify-content: center;}"
       ],
       "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 400,
         "mobile_row_height": 190,
         "background": "#000000",
         "background_gradient": ""
-      }
-    },
-    "featured_product_xkcLCf": {
-      "type": "featured-product",
-      "blocks": {
-        "title_aHyxRR": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "price_iGJdTx": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "description_bjJwdT": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker_pWtFX7": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_TzDHJX": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "buy_buttons_J4G3qW": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "title_aHyxRR",
-        "price_iGJdTx",
-        "description_bjJwdT",
-        "variant_picker_pWtFX7",
-        "quantity_selector_TzDHJX",
-        "buy_buttons_J4G3qW"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "product": "premium-ceramic-lined-travel-mug-1",
-        "desktop_media_width": 40,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#f0f0f0",
-        "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "input_background": "#ffffff",
-        "input_text_color": "#1a1a1a"
       }
     },
     "media_grid_BVNr6N": {
@@ -527,11 +497,13 @@
         "image_nH3T4P"
       ],
       "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 290,
         "mobile_row_height": 170,
-        "background": "#000000",
+        "background": "#f0f0f0",
         "background_gradient": ""
       }
     }
@@ -539,13 +511,13 @@
   "order": [
     "slideshow",
     "media_grid_ehVCRd",
+    "image_link_blocks_6fDCDt",
     "rich_text_gyVCLg",
     "scrolling-text",
     "video_NCkLeN",
     "images_with_text_scrolling_CpgFKQ",
     "press_PRGNPY",
     "media_grid_JHnyGA",
-    "featured_product_xkcLCf",
     "media_grid_BVNr6N"
   ]
 }

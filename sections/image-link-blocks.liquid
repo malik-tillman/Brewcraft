@@ -52,7 +52,7 @@ LIQUID
         {%- for block in section.blocks -%}
           {%- liquid
             assign loading_strategy = nil
-  
+
             if section.index > 3 or forloop.index > 3
               assign loading_strategy = 'lazy'
             endif
@@ -199,6 +199,18 @@ LIQUID
     }
   ],
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hide_desktop",
+      "label": "Hide on desktop",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_mobile",
+      "label": "Hide on mobile",
+      "default": false
+    },
     {
       "type": "checkbox",
       "id": "full_width",
