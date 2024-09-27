@@ -1,91 +1,18 @@
 {
   "sections": {
-    "slideshow_ErEned": {
-      "type": "slideshow",
-      "blocks": {
-        "image_NYhMA6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4762_1.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_NYhMA6"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "show_initial_transition": false,
-        "image_size": "md",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#F2F2F2",
-        "background_gradient": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
           }
         },
         "variant_picker": {
@@ -104,6 +31,12 @@
           "settings": {
           }
         },
+        "text_y3wYny": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This insulated ceramic tumbler is designed for those who appreciate both style and functionality. With its premium ceramic-coated interior, you can enjoy the pure, non-metallic taste of your favorite drinks, whether it’s coffee, tea, iced beverages, or simply water.<br\/><br\/>PACKAGE INCLUDES: <\/p><ol><li>Travel Mug    <\/li><li>Multipurpose Lid<\/li><li>Reusable Straw    <\/li><\/ol>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -114,67 +47,63 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "collapsible_text_XnmbDm": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "MULTIPURPOSE LID",
+            "content": "<p>Enjoy versatile sipping options with our innovative lid. Choose between sipping through the reusable straw or drinking directly from the mug. The reusable straw not only enhances your drinking experience but also supports your commitment to reducing single-use plastics.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_iqUHKz": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "STYLISH & FUNCTIONAL",
+            "content": "<p>Featuring a sleek exterior, a stainless-steel base, and a luxurious gold rim, this mug offers both elegance and practicality. The silicone bottom provides a non-slip grip, while the excellent insulation keeps your drinks insulated for hours.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_7ehkgX": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "ECO-FRIENDLY & DURABLE",
+            "content": "<p>Make a positive impact with this reusable tumbler crafted for daily use. Reduce waste and your environmental footprint while enjoying your drinks guilt-free.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "badges",
         "price",
-        "rating",
-        "payment_terms",
-        "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "text_y3wYny",
+        "buy_buttons",
+        "collapsible_text_XnmbDm",
+        "collapsible_text_iqUHKz",
+        "collapsible_text_7ehkgX"
       ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#1a1a1a",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     }
   },
   "order": [
-    "slideshow_ErEned",
-    "main",
-    "related-products"
+    "main"
   ]
 }
