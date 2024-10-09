@@ -6959,7 +6959,7 @@ product-rerender {
 
 @media screen and (min-width: 700px) {
   .media-grid {
-    --calculated-row-height: max(150px, min(100vw / 5, var(--media-grid-row-height)));
+    --calculated-row-height: max(120px, min(100vw / 5, var(--media-grid-row-height)));
     grid: auto-flow dense var(--calculated-row-height) / repeat(4, minmax(0, 1fr));
   }
 

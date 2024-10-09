@@ -31,10 +31,10 @@
           "settings": {
           }
         },
-        "text_y3wYny": {
-          "type": "text",
+        "description_YPTrjE": {
+          "type": "description",
           "settings": {
-            "text": "<p>This insulated ceramic tumbler is designed for those who appreciate both style and functionality. With its premium ceramic-coated interior, you can enjoy the pure, non-metallic taste of your favorite drinks, whether it’s coffee, tea, iced beverages, or simply water.<br\/><br\/>PACKAGE INCLUDES: <\/p><ol><li>Travel Mug    <\/li><li>Multipurpose Lid<\/li><li>Reusable Straw    <\/li><\/ol>"
+            "collapse_content": false
           }
         },
         "buy_buttons": {
@@ -78,7 +78,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "text_y3wYny",
+        "description_YPTrjE",
         "buy_buttons",
         "collapsible_text_XnmbDm",
         "collapsible_text_iqUHKz",
@@ -101,9 +101,32 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "17274502884fa214cf": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_ugc_reviews_wYpejD": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_ugc_reviews_wYpejD"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "17274502884fa214cf"
   ]
 }

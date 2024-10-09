@@ -6,9 +6,10 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-18_e6b9f530-fdc7-45cf-a26a-c4c6ddb4ea21.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_4762.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/IMG_4753_3.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-end-start text-start",
+            "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "PREMIUM CERAMIC TRAVEL MUGS FOR HOT AND COLD BEVERAGES",
             "title": "ELEVATE EVERY SIP",
@@ -27,6 +28,9 @@
       },
       "block_order": [
         "slide-1"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 787px) {.prose {margin-top: 250px; }}"
       ],
       "settings": {
         "full_width": true,
@@ -267,7 +271,7 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "lg",
-        "video": "shopify:\/\/files\/videos\/brew-craft-outdoors.mp4",
+        "video": "shopify:\/\/files\/videos\/0923.mp4",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -366,6 +370,7 @@
         "quote_PD7aPM",
         "quote_fqfLFk"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -408,7 +413,8 @@
         "image_JPT3bF"
       ],
       "custom_css": [
-        ".media-grid {display: flex; justify-content: center;}"
+        ".media-grid {display: flex; justify-content: center;}",
+        ".bg-custom {padding-block: 0;}"
       ],
       "settings": {
         "hide_desktop": false,
@@ -427,14 +433,14 @@
         "image_YhyDwQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-21_e61027ce-d65a-4fee-b1e3-8dc80c027572.jpg",
+            "image": "shopify:\/\/shop_images\/brew-craft-indoors.00_00_03_12.Still002.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
@@ -449,7 +455,29 @@
         "image_LPQBeE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.jpg",
+            "image": "shopify:\/\/shop_images\/20240820071216_IMG_4715_40aff3e0-36d0-48bd-becf-56f0db5aeec2.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nH3T4P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4777.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -468,10 +496,10 @@
             "overlay_opacity": 0
           }
         },
-        "image_nH3T4P": {
+        "image_raUAri": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4762_dc613f69-fa99-481c-8f84-366231a33ed3.jpg",
+            "image": "shopify:\/\/shop_images\/d0a6787-enhanced-nr1725657430.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -494,15 +522,20 @@
       "block_order": [
         "image_YhyDwQ",
         "image_LPQBeE",
-        "image_nH3T4P"
+        "image_nH3T4P",
+        "image_raUAri"
+      ],
+      "custom_css": [
+        ".media-grid {--calculated-row-height: max( 10px, min(100vw \/ 5, var(--media-grid-row-height)) ); grid: auto-flow dense var(--calculated-row-height) \/ repeat(4, minmax(0, 1fr));}",
+        ".media-grid .media-grid__item {grid-area: span var(--media-grid-row-span) \/ span var(--media-grid-column-span);}"
       ],
       "settings": {
         "hide_desktop": false,
         "hide_mobile": false,
         "full_width": true,
         "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 170,
+        "desktop_row_height": 190,
+        "mobile_row_height": 120,
         "background": "#f0f0f0",
         "background_gradient": ""
       }
