@@ -2,4 +2,74 @@
   display: none;
 }
 
+.press--trust-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.press--trust-container .press--trust-logo {
+  max-width: 50px;
+}
+.press--trust-container .press--trust-logo img {
+  max-width: 100%;
+}
+
+.product-info__block-item[data-block-id=yotpo_product_reviews_ugc_star_rating_iBqbqd] {
+  margin: 0 !important;
+}
+
+.product-info__block-item .yotpo-sr-bottom-line-right-panel {
+  display: none !important;
+}
+
+.yotpo-sr-star-full svg path {
+  fill: #FFB74A;
+}
+
+.product .product-info .discount-message {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.product .product-info .discount-message svg {
+  width: 15px;
+}
+.product .product-info .discount-message p strong {
+  background: #FFB74A;
+  color: #fff;
+  padding: 2px 5px;
+}
+
+.text-on-sale {
+  color: rgb(var(--text-color)/1);
+}
+
+.product-info__block-item[data-block-type="@app"] {
+  display: flex;
+  align-items: center;
+}
+.product-info__block-item[data-block-type="@app"] .yotpo-reviews-star-ratings-widget.yotpo-star-ratings-widget-override-css {
+  margin: 0 !important;
+}
+.product-info__block-item[data-block-type="@app"] .yopto-reviews--text-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.product-info__block-item[data-block-type="@app"] .yopto-reviews--text-container .image--container {
+  max-width: 35px;
+}
+.product-info__block-item[data-block-type="@app"] .yopto-reviews--text-container .image--container img {
+  max-width: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .shopify-section--press .section {
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+}
+
 /*# sourceMappingURL=malik.css.map */

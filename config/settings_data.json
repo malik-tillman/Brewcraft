@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "section_vertical_spacing": "medium",
@@ -7,7 +16,7 @@
     "block_shadow_opacity": 10,
     "block_shadow_vertical_offset": 18,
     "button_hover_effect": "reverse",
-    "background": "#f0f0f0",
+    "background": "#ffffff",
     "text_color": "#1a1a1a",
     "warning_color": "#f0c417",
     "header_background": "#000000",
@@ -31,6 +40,8 @@
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_icon": "shopping_basket",
+    "social_instagram": "https://www.instagram.com/brewcraftstore/",
+    "favicon": "shopify://shop_images/Untitled_design_c28a7d3f-5026-4941-b2f1-79f4c645e178.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [
@@ -38,7 +49,7 @@
     ],
     "blocks": {
       "7570552984445421165": {
-        "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/settings/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
         "settings": {
         }

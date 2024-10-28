@@ -48,7 +48,7 @@
               {%- if block.settings.image != blank or block.settings.author != blank or block.settings.show_rating -%}
                 {%- liquid
                   assign loading_strategy = nil
-        
+
                   if section.index > 3 or forloop.index > 3
                     assign loading_strategy = 'lazy'
                   endif

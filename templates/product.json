@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,6 +16,12 @@
           "type": "title",
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "yotpo_product_reviews_ugc_star_rating_iBqbqd": {
+          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "price": {
@@ -52,7 +67,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "MULTIPURPOSE LID",
-            "content": "<p>Enjoy versatile sipping options with our innovative lid. Choose between sipping through the reusable straw or drinking directly from the mug. The reusable straw not only enhances your drinking experience but also supports your commitment to reducing single-use plastics.<\/p>",
+            "content": "<p>Enjoy versatile sipping options with our innovative lid. Choose between sipping through the reusable straw or drinking directly from the mug. The reusable straw not only enhances your drinking experience but also supports your commitment to reducing single-use plastics.</p>",
             "page": ""
           }
         },
@@ -60,7 +75,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "STYLISH & FUNCTIONAL",
-            "content": "<p>Featuring a sleek exterior, a stainless-steel base, and a luxurious gold rim, this mug offers both elegance and practicality. The silicone bottom provides a non-slip grip, while the excellent insulation keeps your drinks insulated for hours.<\/p>",
+            "content": "<p>Featuring a sleek exterior, a stainless-steel base, and a luxurious gold rim, this mug offers both elegance and practicality. The silicone bottom provides a non-slip grip, while the excellent insulation keeps your drinks insulated for hours.</p>",
             "page": ""
           }
         },
@@ -68,13 +83,14 @@
           "type": "collapsible_text",
           "settings": {
             "title": "ECO-FRIENDLY & DURABLE",
-            "content": "<p>Make a positive impact with this reusable tumbler crafted for daily use. Reduce waste and your environmental footprint while enjoying your drinks guilt-free.<\/p>",
+            "content": "<p>Make a positive impact with this reusable tumbler crafted for daily use. Reduce waste and your environmental footprint while enjoying your drinks guilt-free.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "title",
+        "yotpo_product_reviews_ugc_star_rating_iBqbqd",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -87,6 +103,8 @@
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
+        "yopto-reviews-text": "Avg rating powered by",
+        "yopto-reviews-badge": "shopify://shop_images/pngwing.com.png",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
@@ -102,11 +120,166 @@
         "input_text_color": ""
       }
     },
+    "text_with_icons_XR483Y": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_egB6eD": {
+          "type": "item",
+          "settings": {
+            "icon": "custom-mug",
+            "custom_icon": "shopify://shop_images/image_8f6ab01c-c13e-45c7-83fa-646b3085d1ee.png",
+            "mobile_icon_width": 24,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "#000000",
+            "icon_color": "#ffb74a",
+            "title": "Versatile Drinking Options",
+            "content": "<p>Lid or Straw? Enjoy a cozy hot drink in winter or a refreshing cold one in summer. This mug adjusts with ease, allowing you to use the lid or the straw depending on the season and your preference.</p>"
+          }
+        },
+        "item_jLbKFg": {
+          "type": "item",
+          "settings": {
+            "icon": "custom-feather",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#000000",
+            "icon_color": "#f0c417",
+            "title": "Feather Light",
+            "content": "<p>Designed for easy carrying whether you're commuting, to the office, or outdoors, enjoy your drink without the extra weight.</p>"
+          }
+        },
+        "item_GrhhLc": {
+          "type": "item",
+          "settings": {
+            "icon": "custom-bubbles",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#000000",
+            "icon_color": "#f0c417",
+            "title": "Non-Stain Ceramic Coating",
+            "content": "<p>Enjoy quick, easy cleaning with our non-stain ceramic coating. Designed to resist stains and odors, it keeps your mug fresh with minimal effort—so you can spend more time enjoying your drink.</p>"
+          }
+        },
+        "item_fMyfjJ": {
+          "type": "item",
+          "settings": {
+            "icon": "custom-puzzle",
+            "custom_icon": "shopify://shop_images/puzzle_pieces_icon-01.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#000000",
+            "icon_color": "#ffb74a",
+            "title": "Effortless Assembly and Disassembly",
+            "content": "<p>Say goodbye to complicated setups. The puzzle-piece design makes assembling and disassembling the lid and straw simple, ensuring hassle-free cleaning and convenience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_egB6eD",
+        "item_jLbKFg",
+        "item_GrhhLc",
+        "item_fMyfjJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "media_with_text_6MxWKR": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_JBrkaU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1000102987.jpg",
+            "media_width": 25,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-secure-profile",
+            "custom_icon": "shopify://shop_images/1000103580.jpg",
+            "icon_width": 120,
+            "subheading": "",
+            "title": "SATISFACTION GUARANTEED",
+            "content": "<p>We're committed to ensuring you're happy with your purchase. If something isn't quite right, let us know, and we'll work to resolve it quickly. Whether it's a refund, replacement, or assistance, your satisfaction is always our priority.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0c417",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_JBrkaU"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "rich_text_dP3Jig": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_q88gg8": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-secure-profile",
+            "icon_width": 96,
+            "icon_background_type": "none",
+            "icon_background": "#ffb74a",
+            "icon_color": "#1a1a1a"
+          }
+        },
+        "heading_EqpYjM": {
+          "type": "heading",
+          "settings": {
+            "text": "100% Satisfaction Guaranteed",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_k3bakp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_q88gg8",
+        "heading_EqpYjM",
+        "richtext_k3bakp"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "17274502884fa214cf": {
       "type": "apps",
       "blocks": {
         "yotpo_product_reviews_ugc_reviews_wYpejD": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -127,6 +300,9 @@
   },
   "order": [
     "main",
+    "text_with_icons_XR483Y",
+    "media_with_text_6MxWKR",
+    "rich_text_dP3Jig",
     "17274502884fa214cf"
   ]
 }

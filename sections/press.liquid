@@ -51,7 +51,7 @@
                   {%- if block.settings.logo != blank -%}
                     {%- liquid
                       assign loading_strategy = nil
-            
+
                       if section.index > 3 or forloop.first == false
                         assign loading_strategy = 'lazy'
                       endif
@@ -96,6 +96,18 @@
           </div>
         {%- endif -%}
       </div>
+
+        {% if section.settings.enable_trust_logo %}
+            <div class="press--trust-container">
+                <h3 class="trust--text">
+                    Powered by
+                </h3>
+
+                <div {% render 'surface', class: 'press--trust-logo', background: section.settings.logo_item_background, border: section.settings.logo_item_border %}>
+                    <img src="{{ section.settings.trust_logo | img_url: 'master' }}" alt="Trust logo">
+                </div>
+            </div>
+        {% endif %}
     </div>
   </div>
 {%- endif -%}
@@ -111,6 +123,17 @@
   },
   "max_blocks": 6,
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_trust_logo",
+      "label": "Show Optional Trust Logo",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "trust_logo",
+      "label": "Trust Logo"
+    },
     {
       "type": "checkbox",
       "id": "full_width",

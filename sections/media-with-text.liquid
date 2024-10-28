@@ -47,7 +47,7 @@ LIQUID
         <div class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %}" reveal-on-scroll="true">
           {%- liquid
             assign loading_strategy = nil
-  
+
             if section.index > 3 or forloop.index > 3
               assign loading_strategy = 'lazy'
             endif
@@ -195,7 +195,7 @@ LIQUID
           "type": "range",
           "id": "media_width",
           "label": "Image width",
-          "min": 30,
+          "min": 10,
           "max": 60,
           "step": 5,
           "unit": "%",

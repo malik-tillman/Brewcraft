@@ -70,7 +70,27 @@ Supported variables
     {%- capture block_content -%}
       {%- case block.type -%}
         {%- when '@app' -%}
-          {%- render block -%}
+          {%- liquid
+            render block
+
+            assign is_yopto_reviews = false
+            assign reviews_text = section.settings.yopto-reviews-text | default: "Avg rating powered by "
+            assign reviews_image = section.settings.yopto-reviews-badge
+
+            if block.id contains 'yotpo_product_reviews_ugc_star_rating' and reviews_text != blank and reviews_image != blank
+              assign is_yopto_reviews = true
+            endif
+          -%}
+
+          {% if is_yopto_reviews %}
+            <div class="yopto-reviews--text-container">
+              <p class="text">{{ reviews_text }}</p>
+
+              <div class="image--container">
+                <img src="{{ reviews_image | img_url: 'master' }}" alt="Yopto reviews">
+              </div>
+            </div>
+          {% endif %}
 
         {%- when 'vendor' -%}
           {%- if product.vendor != blank -%}
@@ -171,12 +191,12 @@ Supported variables
 
         {%- when 'variant_picker' -%}
           <div class="product-info__variant-picker">
-            {%- render 'variant-picker', 
-              product: product, 
+            {%- render 'variant-picker',
+              product: product,
               form_id: product_form_id,
-              update_url: update_url, 
-              hide_sold_out_variants: block.settings.hide_sold_out_variants, 
-              block: block 
+              update_url: update_url,
+              hide_sold_out_variants: block.settings.hide_sold_out_variants,
+              block: block
             -%}
           </div>
 

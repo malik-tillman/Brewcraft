@@ -11,7 +11,7 @@
     "push-dev": "shopify theme push --nodelete --json --development --store=$npm_config_store.myshopify.com",
     "push-live": "shopify theme push --nodelete --json --live --store=$npm_config_store.myshopify.com",
     "serve": "shopify theme dev --live-reload full-page --port $npm_config_port --store=$npm_config_store.myshopify.com",
-    "dev": "shopify theme dev --theme-editor-sync --live-reload full-page --port $npm_config_port --store=$npm_config_store.myshopify.com",
+    "dev": "shopify theme dev --theme-editor-sync --live-reload hot-reload --port $npm_config_port --store=$npm_config_store.myshopify.com --ignore *.{scss,css.map}",
     "watch-sass": "gulp watch",
     "whoami": "hopify store",
     "open": "shopify theme open --development",

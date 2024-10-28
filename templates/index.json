@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -6,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4762.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/IMG_4753_3.jpg",
+            "image": "shopify://shop_images/IMG_4762.jpg",
+            "mobile_image": "shopify://shop_images/IMG_4753_3.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -15,7 +24,7 @@
             "title": "ELEVATE EVERY SIP",
             "heading_tag": "h0",
             "button_text": "Shop Now",
-            "button_link": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "button_link": "shopify://products/premium-ceramic-lined-travel-mug-1",
             "text_color": "#f0f0f0",
             "button_background": "#e0b723",
             "button_text_color": "#1a1a1a",
@@ -51,10 +60,10 @@
         "image_ktygcy": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.png",
+            "image": "shopify://shop_images/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.png",
             "title": "Onyx Black",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_url": "/products/premium-ceramic-lined-travel-mug-1?variant=40657246093370",
             "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 1,
@@ -73,10 +82,10 @@
         "image_KUzmmf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brew-craft-outdoors.00_00_16_06.Still006.jpg",
+            "image": "shopify://shop_images/brew-craft-outdoors.00_00_16_06.Still006.jpg",
             "title": "Stone Gray",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_url": "/products/premium-ceramic-lined-travel-mug-1?variant=40657246126138",
             "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 1,
@@ -95,10 +104,10 @@
         "image_tPHXr3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1725584392_d0a7065_de9df63b-e0cc-49ac-8b5b-00a8f26b74df.jpg",
+            "image": "shopify://shop_images/1725584392_d0a7065_de9df63b-e0cc-49ac-8b5b-00a8f26b74df.jpg",
             "title": "Mist White",
             "heading_tag": "h3",
-            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_url": "/products/premium-ceramic-lined-travel-mug-1?variant=40657246060602",
             "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 1,
@@ -121,7 +130,7 @@
         "image_tPHXr3"
       ],
       "custom_css": [
-        ".media-grid {grid: auto-flow dense var(--calculated-row-height) \/ repeat(3, minmax(0, 1fr));}",
+        ".media-grid {grid: auto-flow dense var(--calculated-row-height) / repeat(3, minmax(0, 1fr));}",
         "@media screen and (max-width: 787px) {.media-grid {grid-template-columns: 1fr 1fr 1fr; }}"
       ],
       "settings": {
@@ -141,10 +150,10 @@
         "item_hBkPEH": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.png",
+            "image": "shopify://shop_images/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.png",
             "stretch_image": true,
             "link_text": "Onyx Black",
-            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_url": "shopify://products/premium-ceramic-lined-travel-mug-1",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -154,10 +163,10 @@
         "item_fgW3aF": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brew-craft-outdoors.00_00_16_06.Still006.png",
+            "image": "shopify://shop_images/brew-craft-outdoors.00_00_16_06.Still006.png",
             "stretch_image": true,
             "link_text": "Stone Gray",
-            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_url": "shopify://products/premium-ceramic-lined-travel-mug-1",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -167,10 +176,10 @@
         "item_YpBnA8": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1725584392_d0a7065_de9df63b-e0cc-49ac-8b5b-00a8f26b74df.jpg",
+            "image": "shopify://shop_images/1725584392_d0a7065_de9df63b-e0cc-49ac-8b5b-00a8f26b74df.jpg",
             "stretch_image": true,
             "link_text": "Mist White",
-            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_url": "shopify://products/premium-ceramic-lined-travel-mug-1",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -220,7 +229,7 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "content": "<p>INNER CERAMIC COATING KEEPS YOUR DRINK TASTING AS IT SHOULD. <\/p><p>REUSABLE AND RELIABLE, SAY GOOD-BYE TO DISPOSIBLE HOT AND COLD CUPS<\/p><p>AIR-TIGHT LID AND A SEALED STRAW HOLE KEEPS LIQUID IN - NOT OUT<\/p>"
+            "content": "<p>INNER CERAMIC COATING KEEPS YOUR DRINK TASTING AS IT SHOULD. </p><p>REUSABLE AND RELIABLE, SAY GOOD-BYE TO DISPOSIBLE HOT AND COLD CUPS</p><p>AIR-TIGHT LID AND A SEALED STRAW HOLE KEEPS LIQUID IN - NOT OUT</p>"
           }
         },
         "button_PMxE7h": {
@@ -229,7 +238,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Discover More",
-            "url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "url": "shopify://products/premium-ceramic-lined-travel-mug-1",
             "background": "#f0c417",
             "text_color": "#000000"
           }
@@ -271,8 +280,8 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "lg",
-        "video": "shopify:\/\/files\/videos\/0923.mp4",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/0923.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -284,31 +293,31 @@
         "item_qkmq9T": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-25.png",
+            "image": "shopify://shop_images/Ruby_-_BC2401-25.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Drink Pure",
-            "content": "<p>Inner ceramic coating keeps your drink tasting as it should.<\/p>"
+            "content": "<p>Inner ceramic coating keeps your drink tasting as it should.</p>"
           }
         },
         "item_meMdPT": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brew-craft-outdoors.00_00_19_17.Still007.jpg",
+            "image": "shopify://shop_images/brew-craft-outdoors.00_00_19_17.Still007.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "DRINK ECO-FRIENDLY",
-            "content": "<p>Reusable and reliable, say good-bye to disposable hot and cold cups.<\/p>"
+            "content": "<p>Reusable and reliable, say good-bye to disposable hot and cold cups.</p>"
           }
         },
         "item_Dz8gJR": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1725584392_d0a7065.jpg",
+            "image": "shopify://shop_images/1725584392_d0a7065.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "DRINK RELIABLY",
-            "content": "<p>Air-tight lid and a sealed straw hole keeps liquid in - not out.<\/p>"
+            "content": "<p>Air-tight lid and a sealed straw hole keeps liquid in - not out.</p>"
           }
         }
       },
@@ -338,8 +347,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "John D.",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "author": "Ella B.",
+            "content": "Best think in my cupboard! Keeps hot beverages hot and cold beverages cold. What else could you ask for?",
             "show_rating": true,
             "rating": 5
           }
@@ -348,8 +357,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "John D.",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "author": "Michelle A.",
+            "content": "Love how lightweight the cup feels. Perfect size and cute design.",
             "show_rating": true,
             "rating": 5
           }
@@ -358,8 +367,28 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "John D.",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "author": "Gedalia L.",
+            "content": "Excellent product, I really like the feel and design. It’s a pleasure drinking my coffee from it!",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_fqfLFr": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "TJ",
+            "content": "The cups sleek design + no metallic taste = game changer for those using mugs!",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_fqfLFg": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Jesse A.",
+            "content": "Brewcraft's travel mug is a standout! The ceramic lining keeps my coffee tasting fresh and is easy to clean. It fits perfectly in my cupholder and is stylish, practical, and worth every penny!",
             "show_rating": true,
             "rating": 5
           }
@@ -368,10 +397,13 @@
       "block_order": [
         "quote_UwfhUc",
         "quote_PD7aPM",
-        "quote_fqfLFk"
+        "quote_fqfLFk",
+        "quote_fqfLFr",
+        "quote_fqfLFg"
       ],
-      "disabled": true,
       "settings": {
+        "enable_trust_logo": true,
+        "trust_logo": "shopify://shop_images/pngwing.com.png",
         "full_width": true,
         "content_size": "medium",
         "background": "",
@@ -389,7 +421,7 @@
         "image_JPT3bF": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Competitor_infographic.png",
+            "image": "shopify://shop_images/Competitor_infographic.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -433,10 +465,10 @@
         "image_YhyDwQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brew-craft-indoors.00_00_03_12.Still002.jpg",
+            "image": "shopify://shop_images/brew-craft-indoors.00_00_03_12.Still002.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/products\/premium-ceramic-lined-travel-mug-1",
+            "link_url": "shopify://products/premium-ceramic-lined-travel-mug-1",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 4,
@@ -455,7 +487,7 @@
         "image_LPQBeE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20240820071216_IMG_4715_40aff3e0-36d0-48bd-becf-56f0db5aeec2.jpg",
+            "image": "shopify://shop_images/20240820071216_IMG_4715_40aff3e0-36d0-48bd-becf-56f0db5aeec2.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -477,7 +509,7 @@
         "image_nH3T4P": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4777.png",
+            "image": "shopify://shop_images/IMG_4777.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -499,7 +531,7 @@
         "image_raUAri": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/d0a6787-enhanced-nr1725657430.jpg",
+            "image": "shopify://shop_images/d0a6787-enhanced-nr1725657430.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -526,8 +558,8 @@
         "image_raUAri"
       ],
       "custom_css": [
-        ".media-grid {--calculated-row-height: max( 10px, min(100vw \/ 5, var(--media-grid-row-height)) ); grid: auto-flow dense var(--calculated-row-height) \/ repeat(4, minmax(0, 1fr));}",
-        ".media-grid .media-grid__item {grid-area: span var(--media-grid-row-span) \/ span var(--media-grid-column-span);}"
+        ".media-grid {--calculated-row-height: max( 10px, min(100vw / 5, var(--media-grid-row-height)) ); grid: auto-flow dense var(--calculated-row-height) / repeat(4, minmax(0, 1fr));}",
+        ".media-grid .media-grid__item {grid-area: span var(--media-grid-row-span) / span var(--media-grid-column-span);}"
       ],
       "settings": {
         "hide_desktop": false,

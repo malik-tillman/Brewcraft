@@ -55,7 +55,7 @@
           {%- for block in section.blocks -%}
             {%- liquid
               assign loading_strategy = nil
-    
+
               if section.index > 3 or forloop.index > 3
                 assign loading_strategy = 'lazy'
               endif
@@ -133,6 +133,26 @@
           "id": "icon",
           "label": "Icon",
           "options": [
+            {
+              "value": "custom-mug",
+              "label": "Mug",
+              "group": "Custom"
+            },
+            {
+              "value": "custom-feather",
+              "label": "Feather",
+              "group": "Custom"
+            },
+            {
+              "value": "custom-bubbles",
+              "label": "Bubbles",
+              "group": "Custom"
+            },
+            {
+              "value": "custom-puzzle",
+              "label": "Puzzle",
+              "group": "Custom"
+            },
             {
               "value": "picto-coupon",
               "label": "Coupon",

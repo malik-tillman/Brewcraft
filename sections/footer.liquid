@@ -71,7 +71,8 @@
                     {%- capture sizes -%}{{ block.settings.image_width }}px{%- endcapture -%}
                     {%- capture widths -%}{{ block.settings.image_width }}, {{ block.settings.image_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
                     {%- capture style -%}max-width: {{ block.settings.image_width }}px{%- endcapture -%}
-                    {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths -}}
+
+                    <img src="{{- block.settings.image | img_url: 'master' -}}" alt="" style="max-width: 300px">
                   {%- endif -%}
 
                   <div class="v-stack gap-6">

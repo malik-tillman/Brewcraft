@@ -6,8 +6,9 @@
         "image_WDY6de": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ruby_-_BC2401-14_1_7f9e6fcf-064e-4a4c-b09f-0902dae60ec2.png",
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/image_19.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Ruby_-_BC2401-23.3.png",
+            "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -53,7 +54,7 @@
       "settings": {
         "full_width": true,
         "subheading": "Contact Us",
-        "title": "Do you have any question?",
+        "title": "Do you have any questions?",
         "content": "<p>Email: info@brewcraftstore.com<\/p>",
         "text_position": "start",
         "contact_form_size": "small",
