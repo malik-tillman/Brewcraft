@@ -15,12 +15,12 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_4762.jpg",
-            "mobile_image": "shopify://shop_images/IMG_4753_3.jpg",
+            "image": "shopify://shop_images/1000101429.jpg",
+            "mobile_image": "shopify://shop_images/1000101425.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "PREMIUM CERAMIC TRAVEL MUGS FOR HOT AND COLD BEVERAGES",
+            "subheading": "CERAMIC TRAVEL MUGS FOR HOT AND COLD BEVERAGES",
             "title": "ELEVATE EVERY SIP",
             "heading_tag": "h0",
             "button_text": "Shop Now",
@@ -531,7 +531,7 @@
         "image_raUAri": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/d0a6787-enhanced-nr1725657430.jpg",
+            "image": "shopify://shop_images/IMG_4762_dde57217-af6d-4e73-9ecd-8453c4319367.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",

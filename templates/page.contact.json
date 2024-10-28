@@ -6,8 +6,8 @@
         "image_WDY6de": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_19.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Ruby_-_BC2401-23.3.png",
+            "image": "shopify://shop_images/Untitled_design.copy.1.png",
+            "mobile_image": "shopify://shop_images/1000101945.jpg",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",

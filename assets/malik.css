@@ -70,6 +70,32 @@
     padding-top: 25px;
     padding-bottom: 15px;
   }
+  .template--product .media-with-text__item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .template--product .shopify-section--media-with-text .section {
+    padding: 0 !important;
+  }
+  .template--product .shopify-section--media-with-text .section .media-with-text__item {
+    gap: 0;
+  }
+  .template--product .shopify-section--media-with-text .section .media-with-text__item .media-with-text__content {
+    padding: 25px;
+  }
+  .template--product .shopify-section--media-with-text .section .media-with-text__item .media-with-text__media {
+    position: relative;
+    height: 0;
+    padding-top: 130%;
+  }
+  .template--product .shopify-section--media-with-text .section .media-with-text__item .media-with-text__media img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /*# sourceMappingURL=malik.css.map */
