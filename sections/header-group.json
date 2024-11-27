@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -8,14 +17,14 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "NEW ARRIVALS COMING SOON",
+            "text": "BLACK FRIDAY SALE: 35% OFF",
             "url": ""
           }
         },
         "message_4cW6T3": {
           "type": "message",
           "settings": {
-            "text": "SOLD & SHIPPED IN THE USA",
+            "text": "BLACK FRIDAY SALE: 35% OFF",
             "url": ""
           }
         }
@@ -41,7 +50,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify:\/\/shop_images\/Untitled_design_bb.webp",
+        "logo": "shopify://shop_images/Untitled_design_bb.webp",
         "logo_max_width": 200,
         "logo_mobile_max_width": 100,
         "menu": "main-menu-v2",

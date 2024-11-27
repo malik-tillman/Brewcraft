@@ -30,6 +30,12 @@
             "show_taxes_notice": false
           }
         },
+        "text_DCVC43": {
+          "type": "text",
+          "settings": {
+            "text": "<p>16oz/500ml</p>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -43,8 +49,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "description_YPTrjE": {
           "type": "description",
@@ -63,14 +68,6 @@
             "payment_button_text_color": ""
           }
         },
-        "collapsible_text_XnmbDm": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "MULTIPURPOSE LID",
-            "content": "<p>Enjoy versatile sipping options with our innovative lid. Choose between sipping through the reusable straw or drinking directly from the mug. The reusable straw not only enhances your drinking experience but also supports your commitment to reducing single-use plastics.</p>",
-            "page": ""
-          }
-        },
         "collapsible_text_iqUHKz": {
           "type": "collapsible_text",
           "settings": {
@@ -86,19 +83,37 @@
             "content": "<p>Make a positive impact with this reusable tumbler crafted for daily use. Reduce waste and your environmental footprint while enjoying your drinks guilt-free.</p>",
             "page": ""
           }
+        },
+        "collapsible_text_XnmbDm": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "WEIGHT & MATERIALS",
+            "content": "<p><strong>Weight</strong>: 8.8 oz (250 grams)</p><p><strong>Materials</strong>: Stainless steel exterior with a thick, water-based ceramic-coated interior.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_wVgjQk": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "FAQ's",
+            "content": "<p><strong>How do I care for my mug?</strong></p><ul><li>To keep your mug in top condition, we recommend hand-washing it to maintain the ceramic lining and elastic seal. Avoid putting it in the dishwasher or microwave.</li></ul><p><strong>Will my mug fit in cupholders?</strong></p><ul><li>Yes, our mug will fit in nearly all car cup holders, making it perfect for on-the-go use.</li></ul><p><strong>How long will my drink stay hot or cold?</strong></p><ul><li>This mug is designed to keep drinks warm for up to 4 hours and keep cold for up to 6 hours, so you can enjoy your drink at the ideal temperature.</li></ul><p><strong>What if I’m not satisfied with my purchase?</strong></p><ul><li>Your satisfaction is our priority. If you’re not happy with your purchase please reach out to our customer service team. We’ll work with you to make it right, whether that’s a return, replacement, or refund.</li></ul><p><strong>Do you ship internationally?</strong></p><ul><li>Currently, we ship within the United States, but we’re working to expand our shipping options. Stay tuned for updates!</li></ul><p><strong>How can I contact customer support?</strong></p><ul><li>We’re here to help! You can reach out to our customer support team via email at info@brewcraftstore.com or through our Contact Us page. We aim to respond within 24 hours on business days.</li></ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "title",
         "yotpo_product_reviews_ugc_star_rating_iBqbqd",
         "price",
+        "text_DCVC43",
         "variant_picker",
         "quantity_selector",
         "description_YPTrjE",
         "buy_buttons",
-        "collapsible_text_XnmbDm",
         "collapsible_text_iqUHKz",
-        "collapsible_text_7ehkgX"
+        "collapsible_text_7ehkgX",
+        "collapsible_text_XnmbDm",
+        "collapsible_text_wVgjQk"
       ],
       "settings": {
         "full_width": true,

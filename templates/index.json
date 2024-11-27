@@ -15,16 +15,16 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1000101429.jpg",
-            "mobile_image": "shopify://shop_images/1000101425.jpg",
+            "image": "shopify://shop_images/Ruby_-_BC2401-18_7f8839c3-0927-4603-93c0-5a28015a1e2a.jpg",
+            "mobile_image": "shopify://shop_images/Ruby_-_BC2401-18_7f8839c3-0927-4603-93c0-5a28015a1e2a.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "CERAMIC TRAVEL MUGS FOR HOT AND COLD BEVERAGES",
-            "title": "ELEVATE EVERY SIP",
-            "heading_tag": "h0",
+            "subheading": "ELEVATE EVERY SIP",
+            "title": "CERAMIC SHIELD TRAVEL MUG",
+            "heading_tag": "h3",
             "button_text": "Shop Now",
-            "button_link": "shopify://products/premium-ceramic-lined-travel-mug-1",
+            "button_link": "shopify://products/ceramic-shield-travel-mug",
             "text_color": "#f0f0f0",
             "button_background": "#e0b723",
             "button_text_color": "#1a1a1a",
@@ -82,7 +82,7 @@
         "image_KUzmmf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/brew-craft-outdoors.00_00_16_06.Still006.jpg",
+            "image": "shopify://shop_images/Ruby_-_BC2401-17.jpg",
             "title": "Stone Gray",
             "heading_tag": "h3",
             "link_url": "/products/premium-ceramic-lined-travel-mug-1?variant=40657246126138",
@@ -153,7 +153,7 @@
             "image": "shopify://shop_images/Ruby_-_BC2401-15_50f55975-7539-4132-85fb-546affcf9799.png",
             "stretch_image": true,
             "link_text": "Onyx Black",
-            "link_url": "shopify://products/premium-ceramic-lined-travel-mug-1",
+            "link_url": "/products/premium-ceramic-lined-travel-mug-1?variant=40657246093370",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -163,10 +163,10 @@
         "item_fgW3aF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/brew-craft-outdoors.00_00_16_06.Still006.png",
+            "image": "shopify://shop_images/Ruby_-_BC2401-17.jpg",
             "stretch_image": true,
             "link_text": "Stone Gray",
-            "link_url": "shopify://products/premium-ceramic-lined-travel-mug-1",
+            "link_url": "/products/premium-ceramic-lined-travel-mug-1?variant=40657246126138",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -179,7 +179,7 @@
             "image": "shopify://shop_images/1725584392_d0a7065_de9df63b-e0cc-49ac-8b5b-00a8f26b74df.jpg",
             "stretch_image": true,
             "link_text": "Mist White",
-            "link_url": "shopify://products/premium-ceramic-lined-travel-mug-1",
+            "link_url": "/products/premium-ceramic-lined-travel-mug-1?variant=40657246060602",
             "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -192,9 +192,7 @@
         "item_fgW3aF",
         "item_YpBnA8"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "hide_desktop": true,
         "hide_mobile": false,
@@ -238,7 +236,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Discover More",
-            "url": "shopify://products/premium-ceramic-lined-travel-mug-1",
+            "url": "shopify://products/ceramic-shield-travel-mug",
             "background": "#f0c417",
             "text_color": "#000000"
           }
@@ -348,7 +346,7 @@
           "settings": {
             "logo_width": 100,
             "author": "Ella B.",
-            "content": "Best think in my cupboard! Keeps hot beverages hot and cold beverages cold. What else could you ask for?",
+            "content": "Best thing in my cupboard! Keeps hot beverages hot and cold beverages cold. What else could you ask for?",
             "show_rating": true,
             "rating": 5
           }
@@ -417,33 +415,6 @@
     },
     "media_grid_JHnyGA": {
       "type": "media-grid",
-      "blocks": {
-        "image_JPT3bF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Competitor_infographic.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_JPT3bF"
-      ],
       "custom_css": [
         ".media-grid {display: flex; justify-content: center;}",
         ".bg-custom {padding-block: 0;}"
@@ -468,7 +439,7 @@
             "image": "shopify://shop_images/brew-craft-indoors.00_00_03_12.Still002.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify://products/premium-ceramic-lined-travel-mug-1",
+            "link_url": "shopify://products/ceramic-shield-travel-mug",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 4,
