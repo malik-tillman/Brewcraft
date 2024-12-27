@@ -58,24 +58,32 @@ Supported variables
 
           {%- if product.compare_at_price > product.price -%}
             {%- if settings.discount_mode == 'percentage' -%}
-              {%- assign savings = variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round | append: '%' -%}
+              {%- assign savings = variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round | append: '%&nbsp;off' -%}
             {%- else -%}
               {%- capture savings -%}{{ variant.compare_at_price | minus: variant.price | money }}{%- endcapture -%}
             {%- endif -%}
 
             {%- if show_on_sale_badge -%}
-              <on-sale-badge class="badge badge--on-sale">
-                {%- liquid
-                  if context == 'product'
-                    echo 'product.general.discount_badge_html' | t: savings: savings
-                  elsif context == 'card'
-                    if product.compare_at_price_varies or variant.compare_at_price == blank
-                      echo 'product.general.on_sale_badge' | t
-                    else
-                      echo 'product.general.discount_badge_html' | t: savings: savings
+              <on-sale-badge class="badge badge--on-sale {% if settings.discount_background %}has_background{% endif %}">
+                {% if settings.discount_background %}
+                  <div class="badge-background-image--container">
+                    <img src="{{ settings.discount_background | img_url: 'master' }}" alt>
+                  </div>
+                {% endif %}
+
+                <span>
+                  {%- liquid
+                    if context == 'product'
+                      echo settings.discount_label | append: ' ' | append: savings
+                    elsif context == 'card'
+                      if product.compare_at_price_varies or variant.compare_at_price == blank
+                        echo 'product.general.on_sale_badge' | t
+                      else
+                        echo settings.discount_label | append: ' ' | append: savings
+                      endif
                     endif
-                  endif
-                -%}
+                  -%}
+                </span>
               </on-sale-badge>
             {%- endif -%}
           {%- endif -%}

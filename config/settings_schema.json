@@ -681,6 +681,17 @@
         "default": "saving"
       },
       {
+        "type": "text",
+        "id": "discount_label",
+        "label": "Discount label",
+        "default": "Save"
+      },
+      {
+        "type": "image_picker",
+        "id": "discount_background",
+        "label": "Discount badge background"
+      },
+      {
         "type": "select",
         "id": "product_color_display",
         "label": "Color display mode",
@@ -859,6 +870,12 @@
         "type": "url",
         "id": "social_instagram",
         "label": "Instagram"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram_text",
+        "label": "Instagram text",
+        "default": "Follow us on Instagram"
       },
       {
         "type": "url",

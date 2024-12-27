@@ -72,7 +72,7 @@
                     {%- capture widths -%}{{ block.settings.image_width }}, {{ block.settings.image_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
                     {%- capture style -%}max-width: {{ block.settings.image_width }}px{%- endcapture -%}
 
-                    <img src="{{- block.settings.image | img_url: 'master' -}}" alt="" style="max-width: 300px">
+                    {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: sizes: sizes, widths: widths, class: 'footer__logo-image' -}}
                   {%- endif -%}
 
                   <div class="v-stack gap-6">
@@ -173,8 +173,21 @@
             </div>
           {%- endif -%}
 
-          <p class="footer__copyright text-sm text-subdued">© {{ 'now' | date: '%Y' }}, {{ shop.name }}. {{ powered_by_link }}</p>
+          <p class="footer__copyright text-sm text-subdued">© {{ 'now' | date: '%Y' }}, {{ shop.name }}. {{ powered_by_link }} All rights reserved.</p>
         </div>
+
+        {%- if section.settings.bottom_menu.links.size > 0 -%}
+          <div class="footer__aside-bottom bottom__menu ">
+            <ul class="h-stack text-center gap-3" role="list">
+              {%- for link in section.settings.bottom_menu.links -%}
+                <li>
+                  <a href="{{ link.url }}" class="inline-block link-faded break-all">{{ link.title }}</a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+
       </div>
     </div>
   </div>
@@ -233,6 +246,13 @@
       "id": "show_locale_selector",
       "label": "Show language selector",
       "default": true
+    },
+    {
+      "type": "link_list",
+      "id": "bottom_menu",
+      "label": "Bottom Menu",
+      "info": "This menu won't show dropdown items.",
+      "default": "footer"
     }
   ],
   "blocks": [

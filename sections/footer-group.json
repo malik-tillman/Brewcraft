@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer group",
@@ -15,7 +24,7 @@
             "icon_background": "",
             "icon_color": "#f0c417",
             "title": "ON THE GO",
-            "content": "<p>The perfect fit for all standard size cup holders.<\/p>"
+            "content": "<p>The perfect fit for all standard size cup holders.</p>"
           }
         },
         "customer-support": {
@@ -28,7 +37,7 @@
             "icon_background": "",
             "icon_color": "#f0c417",
             "title": "IN THE OFFICE",
-            "content": "<p>Keeps you going from 9 to 5 - and beyond.<\/p>"
+            "content": "<p>Keeps you going from 9 to 5 - and beyond.</p>"
           }
         },
         "discount": {
@@ -41,7 +50,7 @@
             "icon_background": "",
             "icon_color": "#f0c417",
             "title": "AT HOME",
-            "content": "<p>The modern upgrade to your classic homestyle ceramic mug.<\/p>"
+            "content": "<p>The modern upgrade to your classic homestyle ceramic mug.</p>"
           }
         }
       },
@@ -68,7 +77,7 @@
         "newsletter_4eqWrA": {
           "type": "newsletter",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_bb.webp",
+            "image": "shopify://shop_images/Untitled_design_bb.webp",
             "image_width": 300,
             "heading_size": "h6",
             "title": "Sign up to our newsletter",
@@ -78,7 +87,7 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "main-menu-v3",
             "show_menu_title": true,
             "menu_title": "Customer Support"
           }
@@ -88,7 +97,7 @@
           "disabled": true,
           "settings": {
             "title": "About",
-            "content": "<p>Premium ceramic travel mugs for hot and cold beverages.<\/p>",
+            "content": "<p>Premium ceramic travel mugs for hot and cold beverages.</p>",
             "enable_follow_on_shop": false
           }
         }
@@ -109,7 +118,8 @@
         "show_country_selector": false,
         "show_country_flag": false,
         "show_country_name": false,
-        "show_locale_selector": false
+        "show_locale_selector": false,
+        "bottom_menu": "bottom-menu"
       }
     }
   },

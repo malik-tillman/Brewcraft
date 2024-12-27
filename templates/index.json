@@ -399,6 +399,7 @@
         "quote_fqfLFr",
         "quote_fqfLFg"
       ],
+      "disabled": true,
       "settings": {
         "enable_trust_logo": true,
         "trust_logo": "shopify://shop_images/pngwing.com.png",
@@ -415,6 +416,7 @@
     },
     "media_grid_JHnyGA": {
       "type": "media-grid",
+      "disabled": true,
       "custom_css": [
         ".media-grid {display: flex; justify-content: center;}",
         ".bg-custom {padding-block: 0;}"

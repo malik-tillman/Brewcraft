@@ -33,6 +33,10 @@ Supported variables
     <li>
       <a href="{{ settings.social_instagram | default: shop.brand.metafields.social_links.instagram }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Instagram' }}">
         {%- render 'icon' with 'instagram' -%}
+
+        {% if settings.social_instagram_text != blank %}
+          <span>{{ settings.social_instagram_text }}</span>
+        {% endif %}
       </a>
     </li>
   {%- endif -%}

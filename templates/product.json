@@ -19,7 +19,7 @@
           }
         },
         "yotpo_product_reviews_ugc_star_rating_iBqbqd": {
-          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -135,6 +135,103 @@
         "input_text_color": ""
       }
     },
+    "press_PRGNPY": {
+      "type": "press",
+      "blocks": {
+        "quote_UwfhUc": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Ella B.",
+            "content": "Best thing in my cupboard! Keeps hot beverages hot and cold beverages cold. What else could you ask for?",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_PD7aPM": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Michelle A.",
+            "content": "Love how lightweight the cup feels. Perfect size and cute design.",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_fqfLFk": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Gedalia L.",
+            "content": "Excellent product, I really like the feel and design. It’s a pleasure drinking my coffee from it!",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_fqfLFr": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "TJ",
+            "content": "The cups sleek design + no metallic taste = game changer for those using mugs!",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_fqfLFg": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Jesse A.",
+            "content": "Brewcraft's travel mug is a standout! The ceramic lining keeps my coffee tasting fresh and is easy to clean...",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_U8rHJb": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Wendy B.",
+            "content": "It’s perfect size and I love the ceramic coating inside",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_AAXcTV": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Jeff W.",
+            "content": "I bought this specifically for tea for someone else and they love it.",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_UwfhUc",
+        "quote_PD7aPM",
+        "quote_fqfLFk",
+        "quote_fqfLFr",
+        "quote_fqfLFg",
+        "quote_U8rHJb",
+        "quote_AAXcTV"
+      ],
+      "settings": {
+        "enable_trust_logo": true,
+        "trust_logo": "shopify://shop_images/pngwing.com.png",
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "text_with_icons_XR483Y": {
       "type": "text-with-icons",
       "blocks": {
@@ -209,6 +306,50 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#000000"
+      }
+    },
+    "media_grid_JHnyGA": {
+      "type": "media-grid",
+      "blocks": {
+        "image_AjqRRw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Competitor_Table_UPDATED_Latest_Version_Transparent_Background.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 3,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_AjqRRw"
+      ],
+      "custom_css": [
+        ".media-grid {display: flex; justify-content: center;}",
+        ".bg-custom {padding-block: 0;}"
+      ],
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": true,
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 400,
+        "mobile_row_height": 190,
+        "background": "#ffffff",
+        "background_gradient": ""
       }
     },
     "media_with_text_6MxWKR": {
@@ -294,7 +435,7 @@
       "type": "apps",
       "blocks": {
         "yotpo_product_reviews_ugc_reviews_wYpejD": {
-          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -315,7 +456,9 @@
   },
   "order": [
     "main",
+    "press_PRGNPY",
     "text_with_icons_XR483Y",
+    "media_grid_JHnyGA",
     "media_with_text_6MxWKR",
     "rich_text_dP3Jig",
     "17274502884fa214cf"

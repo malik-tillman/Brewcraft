@@ -5655,7 +5655,7 @@ product-rerender {
 .footer {
   --background: var(--footer-background);
   --text-color: var(--footer-text);
-  --footer-padding-block: var(--spacing-12);
+  --footer-padding-block: var(--spacing-10);
   --footer-part-gap: var(--spacing-10);
   --footer-block-list-gap: var(--spacing-10);
   --footer-block-gap: var(--spacing-4);
